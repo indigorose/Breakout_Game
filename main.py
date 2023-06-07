@@ -40,7 +40,7 @@ while game_is_on:
     ball.move()
 #   Brick detection - remove brick from game play and bounce
     for brick in bricks.all_bricks:
-        if brick.distance(ball) < 20:
+        if brick.distance(ball) <= 20:
             brick.color("black")
             brick.goto(-400, -400)
             ball.bounce_y()
@@ -56,7 +56,7 @@ while game_is_on:
     if ball.ycor() > 350:
         ball.bounce_y()
 #   Detect collision with bottom paddle
-    if ball.distance(p_paddle) < 50 and ball.ycor() > -350:
+    if ball.distance(p_paddle) <= 40 and ball.ycor() > -355:
         ball.bounce_y()
 #   Detect player paddle miss
     if ball.ycor() < -300:
