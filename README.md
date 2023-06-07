@@ -6,7 +6,7 @@ A Python one player game, based on object orientated programming with aim to rem
 
 ## Screenshots
 
-<img align="center" alt="Completed Image" height="500" src="images/Screenshot_main.png" width="650"/>
+<img align="center" alt="Completed Image" height="500" src="images/Screenshot_main.png" width="350"/>
 
 <img align="center" alt="Gif Version" height="500" src="images/breakout_gif.gif" width="500"/>
 
